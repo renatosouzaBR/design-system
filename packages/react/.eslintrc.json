@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@renatosouzaBR-ui/eslint-config"
+  ]
+}
