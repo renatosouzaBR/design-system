@@ -4,7 +4,14 @@ import { Text, TextInput, TextInputProps, Box } from '@renatosouzaBR-ui/react'
 export default {
   title: 'Form/Text Input',
   component: TextInput,
-  args: {},
+  args: {
+    disabled: false,
+  },
+  argTypes: {
+    disabled: {
+      control: 'boolean',
+    },
+  },
   decorators: [
     (StoryObj) => {
       return (

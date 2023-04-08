@@ -4,7 +4,16 @@ import { Text, TextArea, TextAreaProps, Box } from '@renatosouzaBR-ui/react'
 export default {
   title: 'Form/Text Area',
   component: TextArea,
-  args: {},
+  args: {
+    disabled: false,
+  },
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  },
   decorators: [
     (StoryObj) => {
       return (

@@ -8,12 +8,19 @@ export default {
     src: 'https://github.com/renatosouzaBR.png',
     alt: 'Image do avatar',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
 
 export const Fallback: StoryObj<AvatarProps> = {
   args: {
-    src: undefined,
+    src: '',
   },
 }
