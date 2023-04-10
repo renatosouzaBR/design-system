@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { MultiStep, MultiStepProps, Box } from '@renatosouzaBR-ui/react'
+import { MultiStep, MultiStepProps, Box } from '@renatosouzabr-ui/react'
 
 export default {
   title: 'Form/MultiStep',

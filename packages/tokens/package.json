@@ -1,5 +1,5 @@
 {
-  "name": "@renatosouzaBR-ui/tokens",
+  "name": "@renatosouzabr-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@renatosouzaBR-ui/ts-config": "*",
-    "@renatosouzaBR-ui/eslint-config": "*",
+    "@renatosouzabr-ui/ts-config": "*",
+    "@renatosouzabr-ui/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.3"
   }

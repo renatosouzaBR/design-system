@@ -1,5 +1,5 @@
 {
-  "name": "@renatosouzaBR-ui/docs",
+  "name": "@renatosouzabr-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,8 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.21.4",
-    "@renatosouzaBR-ui/eslint-config": "*",
-    "@renatosouzaBR-ui/ts-config": "*",
+    "@renatosouzabr-ui/eslint-config": "*",
+    "@renatosouzabr-ui/ts-config": "*",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
@@ -30,8 +30,8 @@
     "vite": "^4.2.1"
   },
   "dependencies": {
-    "@renatosouzaBR-ui/react": "*",
-    "@renatosouzaBR-ui/tokens": "*",
+    "@renatosouzabr-ui/react": "*",
+    "@renatosouzabr-ui/tokens": "*",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",

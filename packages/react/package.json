@@ -1,5 +1,5 @@
 {
-  "name": "@renatosouzaBR-ui/react",
+  "name": "@renatosouzabr-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@renatosouzaBR-ui/eslint-config": "*",
-    "@renatosouzaBR-ui/tokens": "*",
-    "@renatosouzaBR-ui/ts-config": "*",
+    "@renatosouzabr-ui/eslint-config": "*",
+    "@renatosouzabr-ui/tokens": "*",
+    "@renatosouzabr-ui/ts-config": "*",
     "@types/react": "^18.0.32",
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",

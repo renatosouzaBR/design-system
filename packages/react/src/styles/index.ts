@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@renatosouzaBR-ui/tokens'
+} from '@renatosouzabr-ui/tokens'
 
 export const {
   styled,
