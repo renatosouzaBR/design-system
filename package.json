@@ -5,7 +5,7 @@
     "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "npm run build --filter=!@renatosouzabr-ui/docs && changeset publish"
+    "release": "npm run build --filter=!packages/docs && changeset publish"
   },
   "workspaces": [
     "packages/*"
