@@ -22,9 +22,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
-        env:
-          TURBO_TOKEN: ${{ secrets.VERCEL_CI }}
-          TURBO_TEAM: renatosouzabr
+        # env:
+        #   TURBO_TOKEN: ${{ secrets.VERCEL_CI }}
+        #   TURBO_TEAM: renatosouzabr
 
       - name: Deploy storybook
         working-directory: ./packages/docs
