@@ -4,7 +4,6 @@ export const TooltipContainer = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  backgroundColor: 'red',
 })
 
 export const TooltipText = styled('div', {
@@ -15,7 +14,8 @@ export const TooltipText = styled('div', {
   fontSize: '$sm',
   fontWeight: '$medium',
   lineHeight: '$short',
-  maxWidth: '220rem',
+  textAlign: 'center',
+  maxWidth: '14rem',
 })
 
 export const UpArrow = styled('div', {

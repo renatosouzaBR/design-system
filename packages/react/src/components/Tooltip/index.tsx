@@ -4,10 +4,10 @@ export interface TooltipProps {
   text: string
 }
 
-export function Tooltip() {
+export function Tooltip({ text }: TooltipProps) {
   return (
     <TooltipContainer>
-      <TooltipText>21 de Outubro - Indisponível</TooltipText>
+      <TooltipText>{text}</TooltipText>
       <UpArrow />
     </TooltipContainer>
   )
