@@ -1,0 +1,2 @@
+import{j as r,F as o}from"./jsx-runtime-fc7b08b3.js";import{B as t}from"./index-fdf16a44.js";import"./index-9a4a3d58.js";import"./iframe-edb83a5d.js";import"./index-e26ed99d.js";const m={title:"Surfaces/Box",component:t,args:{children:r(o,{children:r("span",{children:"Mostrando component Box"})})},argTypes:{children:{control:{type:null}}}},p={},c=["Primary"];export{p as Primary,c as __namedExportsOrder,m as default};
+//# sourceMappingURL=box.stories-cb1ae57b.js.map
