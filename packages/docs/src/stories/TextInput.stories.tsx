@@ -6,10 +6,17 @@ export default {
   component: TextInput,
   args: {
     disabled: false,
+    containerSize: 'md',
   },
   argTypes: {
     disabled: {
       control: 'boolean',
+    },
+    containerSize: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
     },
   },
   decorators: [
