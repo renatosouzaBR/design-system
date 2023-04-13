@@ -1,5 +1,11 @@
 # @renatosouzabr-ui/react
 
+## 1.2.2
+
+### Patch Changes
+
+- Fix fontSize of Button
+
 ## 1.2.1
 
 ### Patch Changes

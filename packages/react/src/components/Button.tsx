@@ -5,8 +5,7 @@ import { styled } from '../styles'
 export const Button = styled('button', {
   all: 'unset',
   borderRadius: 6,
-  minWidth: 120,
-  padding: '0 $3',
+  padding: '0 $4',
 
   display: 'flex',
   alignItems: 'center',
@@ -15,7 +14,7 @@ export const Button = styled('button', {
 
   fontFamily: '$default',
   fontWeight: '$medium',
-  fontSize: '$md',
+  fontSize: '$sm',
   lineHeight: '$base',
 
   cursor: 'pointer',
