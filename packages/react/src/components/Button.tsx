@@ -34,7 +34,7 @@ export const Button = styled('button', {
   },
 
   variants: {
-    type: {
+    variant: {
       primary: {
         color: '$white',
         backgroundColor: '$ignite500',
@@ -88,7 +88,7 @@ export const Button = styled('button', {
   },
 
   defaultVariants: {
-    type: 'primary',
+    variant: 'primary',
     size: 'md',
   },
 })

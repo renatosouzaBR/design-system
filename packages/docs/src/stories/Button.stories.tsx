@@ -7,7 +7,7 @@ export default {
   component: Button,
   args: {
     children: 'Enviar',
-    type: 'primary',
+    variant: 'primary',
     size: 'md',
     disabled: false,
   },
@@ -15,7 +15,7 @@ export default {
     onClick: {
       name: 'click',
     },
-    type: {
+    variant: {
       options: ['primary', 'secondary', 'tertiary'],
       control: {
         type: 'inline-radio',
@@ -39,13 +39,13 @@ export const Primary: StoryObj<ButtonProps> = {}
 
 export const Secondary: StoryObj<ButtonProps> = {
   args: {
-    type: 'secondary',
+    variant: 'secondary',
   },
 }
 
 export const Tertiary: StoryObj<ButtonProps> = {
   args: {
-    type: 'tertiary',
+    variant: 'tertiary',
   },
 }
 
